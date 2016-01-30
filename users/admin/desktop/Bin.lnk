@@ -1,0 +1,8 @@
+{
+    "name": "Recycle Bin",
+    "icon": "{sys}RecycleBin",
+    "application": "Explorer",
+    "arguments": {
+        "open": "/users/$USER/.bin"
+    }
+}

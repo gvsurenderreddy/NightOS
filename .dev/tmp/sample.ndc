@@ -1,0 +1,13 @@
+<title:"Empty document" />
+<meta charset="utf-8" />
+
+<input :name type:"text" placeholder:"Nom" />
+<input :age  type:"text" placeholder:"Age" />
+<div: :hello hidden />
+<button:sayHello callback:"name:value;age:value;hello" />
+
+<script:javascript>
+    doc.callback('sayHello', function(name, age, hello) {
+        hello.content('Your name is <italic>' + name + '</italic> and you are <bold>' + age + '</bold> years old');
+    });
+</script>

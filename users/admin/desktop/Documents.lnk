@@ -1,0 +1,6 @@
+{
+    "application": "Explorer",
+    "arguments": {
+        "open": "/users/$USER/Documents"
+    }
+}
